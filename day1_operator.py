@@ -1,9 +1,10 @@
 #i useed assignment /relational operators 
 def arithemeticop():
-    a = int(input("enter a number"))
-    b = int(input("enter second number"))
-    choice = input("Enter a option(addition:+,subtraction:-,division:/,multiplication:*,exponent:^,modulus:%,floor division://)")
     try:
+        a = int(input("enter a number"))
+        b = int(input("enter second number"))
+        choice = input("Enter a option(addition:+,subtraction:-,division:/,multiplication:*,exponent:^,modulus:%,floor division://)")
+    
         if choice == '+':
             print(a+b)
         elif choice == '-':
